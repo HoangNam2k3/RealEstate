@@ -1,0 +1,42 @@
+export const Houses_DATA = [
+    {
+        id: 1,
+        img: require('../assets/markus-spiske-37931-unsplash.png'),
+        tit: 'One Mission Bay',
+        day: '14 days ago',
+        add: 'San Francisco, CA',
+        price: '$2,950,000',
+    },
+    {
+        id: 2,
+        img: require('../assets/andrew-neel-1354776-unsplash.png'),
+        tit: '1410 Steiner St',
+        day: '9 days ago',
+        add: 'San Francisco, CA',
+        price: '$3,279,000',
+    },
+    {
+        id: 3,
+        img: require('../assets/christopher-jolly-616571-unsplash.png'),
+        tit: '246 Sussex St',
+        day: '7 days ago',
+        add: 'San Francisco, CA',
+        price: '$1,259,000',
+    },
+    {
+        id: 4,
+        img: require('../assets/emile-guillemot-1205579-unsplash.png'),
+        tit: '1206 Market St',
+        day: '2 hours ago',
+        add: 'San Francisco, CA',
+        price: '$379,000',
+    },
+    {
+        id: 5,
+        img: require('../assets/michael-browning-246513-unsplash.png'),
+        tit: '463 Eureka St',
+        day: '4 days ago',
+        add: 'San Francisco, CA',
+        price: '$3,795,000',
+    },
+];
