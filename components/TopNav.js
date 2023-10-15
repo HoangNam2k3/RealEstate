@@ -1,8 +1,11 @@
 import { View, Text, Image } from 'react-native';
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
+import {useNavigation} from '@react-navigation/native'
 
 const TopNav = ({ title }) => {
+  const navigation = useNavigation();
+
     return (
         <View
             style={{
@@ -15,7 +18,7 @@ const TopNav = ({ title }) => {
                 paddingVertical: 8,
             }}
         >
-            <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center' }}>
+            <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center' }} onPress={()=>navigation.goBack()}>
                 <Image source={require('../assets/backarrow.png')} />
                 <Text style={{ color: '#20C065', fontSize: 18, marginLeft: 4 }}>Home</Text>
             </TouchableOpacity>
